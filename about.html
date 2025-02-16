@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ROSH T-SHIRTS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            background: url('tshirt-background.jpg') no-repeat center center fixed; /* Updated image */
+            background-size: cover;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            color: #f5f5f5;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #121212;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-bottom: 2px solid #ffcc00;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 2rem;
+            color: #ffcc00 !important;
+            letter-spacing: 2px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #f5f5f5 !important;
+            font-size: 1.2rem;
+            margin: 0 10px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffcc00 !important;
+            transform: scale(1.1);
+        }
+
+        .hero-section {
+            color: #fff;
+            padding: 40px 5px; /* Reduced padding */
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .hero-section p {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background: linear-gradient(to right, #ffcc00, #ff9900);
+            color: #121212;
+            border: none;
+            font-size: 1.2rem;
+            padding: 15px 40px;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(255, 204, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(to right, #ffc107, #ff8800);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 204, 0, 0.7);
+        }
+        .about-section {
+            background: #fff; /* White background for readability */
+            padding: 50px;
+            margin-top: 0; /* Removed margin-top */
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        .about-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #343a40;
+        }
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        footer {
+            background-color: #343a40;
+            color: #f5f5f5;
+            text-align: center;
+            padding: 10px; /* Reduced padding */
+            font-size: 1rem;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-icon {
+            font-size: 1.5rem; /* Increased icon size */
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+        .footer-icon:hover {
+            transform: scale(1.2);
+        }
+        .nav-link.active {
+        color: #ffcc00 !important;
+        font-weight: bold;
+        border-bottom: 2px solid #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">DK T-SHIRTS</a> <!-- Updated brand name -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <h1>About DK T-SHIRTS</h1>
+    <p>Discover the perfect blend of style, comfort, and quality.</p>
+</section>
+<!-- About Section -->
+<div class="container my-5">
+    <div class="about-section">
+        <h2>Who We Are</h2>
+        <p>
+            At <b>DK T-SHIRTS</b>, we believe a T-shirt is more than just an item of clothing—it's a statement of individuality and comfort. 
+            With a commitment to quality and design, we curate a collection of T-shirts that inspire confidence, style, and reliability.
+        </p>
+        <p>
+            Established with passion and expertise, DK T-SHIRTS offers a diverse selection that caters to every taste, from classic styles to contemporary innovations. Whether you're looking for an everyday T-shirt or a unique statement piece, our collection has it all.
+        </p>
+        <p>
+            Our dedication to customer satisfaction drives us to provide exceptional service, ensuring that your experience with us is as impeccable as the T-shirts we sell.
+        </p>
+        <p class="text-center">
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </p>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: info@dktshirts.com</p> <!-- Updated email -->
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <a href="#" class="text-light footer-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-light footer-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-light footer-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-light footer-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-md-4">
+                <h5>Additional Information</h5>
+                <p><a href="privacy.html" class="text-light">Privacy Policy</a></p>
+                <p><a href="terms.html" class="text-light">Terms of Service</a></p>
+            </div>
+        </div>
+        <p class="mt-4">&copy; 2025 DK T-SHIRTS. All Rights Reserved.</p> <!-- Updated brand name -->
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
